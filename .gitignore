@@ -1,0 +1,51 @@
+# ==========================================================
+#  SDGAMER MASTER GIT IGNORE
+# ==========================================================
+
+# --- SDGAMER Specifics ---
+*.img
+*.qcow2
+*.iso
+*.seed
+keys/user.tmp
+
+# --- Logs & Runtime ---
+logs
+*.log
+npm-debug.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# --- Dependency Directories ---
+node_modules/
+jspm_packages/
+web_modules/
+
+# --- Environment & Secrets ---
+# Inhe kabhi bhi public GitHub par upload na karein
+.env
+.env.*
+!.env.example
+.netrc
+
+# --- Build Outputs ---
+dist
+build/
+Release/
+.next/
+.nuxt/
+out/
+.svelte-kit/
+
+# --- Cache ---
+.cache/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+.parcel-cache
+
+# --- OS Specific Files ---
+.DS_Store
+Thumbs.db
